@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143896779227",
+    "project_id": "zynko-app",
+    "storage_bucket": "zynko-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143896779227:android:fb56eaca894bcd35f36ffe",
+        "android_client_info": {
+          "package_name": "com.zynkoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAegH4DewS0tF71lE0xqaJgQWvfbFkvBHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
