@@ -133,6 +133,56 @@ Zynko is a mobile-first, offline-capable, gamified learning platform designed fo
 
 ---
 
+ 
+
+## 🌐 Offline-First Strategy
+- Bundle core lessons, quizzes, and media with the app for immediate offline use.
+- Cache user progress locally; sync diffs to Firestore when a connection is available.
+- Use background sync policies (exponential backoff) to minimize data usage.
+- Design assets to be small and optimized for low-spec devices.
+
+---
+
+## 📈 Analytics (Planned)
+- Track per-concept mastery, time-on-task, attempt patterns, and hint usage.
+- Teacher dashboard with cohort and individual views; export CSV/PDF.
+- Early warning on disengagement and recommendations for remedial content.
+
+---
+
+## 🔐 Roles & Permissions (Roadmap)
+- Student: learn, play, track personal progress, earn rewards
+- Teacher: assign modules, view analytics, remediate
+- Admin: manage content packs, languages, and releases
+
+---
+
+## 🗺️ Roadmap
+- Game engine and level progression (Math/Science/Tech modules)
+- Content packs in regional languages (phase-wise rollout)
+- Adaptive difficulty and hinting with lightweight on-device models
+- Leaderboards with school/cluster scoping and privacy controls
+- Teacher web dashboard (React/Next.js)
+- Enhanced offline packaging and delta updates
+
+---
+
+## 🖼️ Screenshots
+Add your screenshots under `assets/screenshots/` and reference them here.
+
+Example:
+```markdown
+![Intro](assets/screenshots/intro.png)
+![Onboarding](assets/screenshots/onboarding.png)
+![Dashboard](assets/screenshots/dashboard.png)
+```
+
+Tips
+- Capture at 1080x1920 (or device-native) and compress losslessly.
+- Keep filenames lowercase with hyphens/underscores.
+
+---
+
 ## 📦 Project Structure (Selected)
 ```
 src/
@@ -183,55 +233,6 @@ npm run ios
 # or
 yarn ios
 ```
-
-
----
-
-## 🌐 Offline-First Strategy
-- Bundle core lessons, quizzes, and media with the app for immediate offline use.
-- Cache user progress locally; sync diffs to Firestore when a connection is available.
-- Use background sync policies (exponential backoff) to minimize data usage.
-- Design assets to be small and optimized for low-spec devices.
-
----
-
-## 📈 Analytics (Planned)
-- Track per-concept mastery, time-on-task, attempt patterns, and hint usage.
-- Teacher dashboard with cohort and individual views; export CSV/PDF.
-- Early warning on disengagement and recommendations for remedial content.
-
----
-
-## 🔐 Roles & Permissions (Roadmap)
-- Student: learn, play, track personal progress, earn rewards
-- Teacher: assign modules, view analytics, remediate
-- Admin: manage content packs, languages, and releases
-
----
-
-## 🗺️ Roadmap
-- Game engine and level progression (Math/Science/Tech modules)
-- Content packs in regional languages (phase-wise rollout)
-- Adaptive difficulty and hinting with lightweight on-device models
-- Leaderboards with school/cluster scoping and privacy controls
-- Teacher web dashboard (React/Next.js)
-- Enhanced offline packaging and delta updates
-
----
-
-## 🖼️ Screenshots
-Add your screenshots under `assets/screenshots/` and reference them here.
-
-Example:
-```markdown
-![Intro](assets/screenshots/intro.png)
-![Onboarding](assets/screenshots/onboarding.png)
-![Dashboard](assets/screenshots/dashboard.png)
-```
-
-Tips
-- Capture at 1080x1920 (or device-native) and compress losslessly.
-- Keep filenames lowercase with hyphens/underscores.
 
 ---
 
