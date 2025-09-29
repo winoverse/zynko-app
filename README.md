@@ -1,3 +1,22 @@
+<div align="center">
+
+  <img src="src/assets/images/png/brandlogo.png" alt="Zynko Logo" width="160" />
+
+  <h2>Zynko — Gamified Learning Platform for Rural Education (SIH25048)</h2>
+
+  <p>
+    <a href="https://reactnative.dev"><img src="https://img.shields.io/badge/React%20Native-Mobile-61DAFB?logo=react&logoColor=white" alt="React Native" /></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
+    <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-Auth%20%26%20Firestore-FFCA28?logo=firebase&logoColor=black" alt="Firebase" /></a>
+    <img src="https://img.shields.io/badge/Platforms-Android%20%7C%20iOS-3DDC84?logo=android&logoColor=white" alt="Platforms" />
+    <img src="https://img.shields.io/badge/Offline-First-5A67D8" alt="Offline First" />
+    <img src="https://img.shields.io/badge/Status-MVP-success" alt="Status: MVP" />
+    <img src="https://img.shields.io/badge/SIH-25048-orange" alt="SIH 25048" />
+    <img src="https://img.shields.io/badge/License-Private-lightgrey" alt="License" />
+  </p>
+
+</div>
+
 ## Zynko — Gamified Learning Platform for Rural Education (SIH25048)
 
 Zynko is a mobile-first, offline-capable, gamified learning platform designed for students in rural schools (grades 6–12). It transforms STEM lessons into interactive, story-driven gameplay, improving engagement and concept mastery while running reliably on low-cost devices with intermittent connectivity.
