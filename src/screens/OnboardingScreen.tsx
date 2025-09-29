@@ -47,7 +47,7 @@ export default function OnboardingScreen() {
       >
         <ScrollView contentContainerStyle={styles.scrollContent} keyboardShouldPersistTaps="handled">
           <View style={styles.headingTop}>
-            <Text style={styles.headingLine1}>Perssonal Details</Text>
+            <Text style={styles.headingLine1}>Personal Details</Text>
             <Text style={styles.subHeading}>fill the information</Text>
           </View>
           <View style={styles.form}>
@@ -110,7 +110,9 @@ export default function OnboardingScreen() {
               ]}
               containerStyle={styles.field}
             />
-            <DOBPicker value={dob} onChange={setDob} />
+            <View style={styles.dobRowWrap}>
+              <DOBPicker value={dob} onChange={setDob} />
+            </View>
             <SignInButton title={saving ? 'SAVING…' : 'CONFIRM'} disabled={saving} onPress={async () => {
               playClick();
               const d = dob?.day; const m = dob?.month; const y = dob?.year;
@@ -191,7 +193,7 @@ const styles = StyleSheet.create({
   topLeft: { position: 'absolute', top: 28, left: 16, zIndex: 2, padding: 6 },
   scrollContent: {
     flexGrow: 1,
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     paddingBottom: 24,
   },
   centerWrap: {
@@ -201,7 +203,7 @@ const styles = StyleSheet.create({
   },
   headingTop: {
     alignItems: 'center',
-    marginTop: 80,
+    marginTop: '70%',
     marginBottom: 8,
   },
   headingLine1: {
@@ -219,15 +221,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 24,
     gap: 14,
-    marginTop: 12,
+    marginTop: 0,
   },
   field: {
     backgroundColor: '#ffffff',
-    width: 320,
+    width: '90%',
+    maxWidth: 360,
+    alignSelf: 'center',
+  },
+  dobRowWrap: {
+    width: '90%',
+    maxWidth: 360,
     alignSelf: 'center',
   },
   signInBtn: {
-    width: 320,
+    width: '90%',
+    maxWidth: 360,
     alignSelf: 'center',
     marginTop: 8,
   },
