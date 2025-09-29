@@ -73,13 +73,63 @@ Zynko is a mobile-first, offline-capable, gamified learning platform designed fo
 ---
 
 ## 🛠️ Tech Stack
-- **Mobile App**: React Native, TypeScript
-- **Navigation**: React Navigation (Native Stack)
-- **Auth & Database**: Firebase Auth, Cloud Firestore (`@react-native-firebase/*`)
-- **Animations**: Lottie (`src/components/LottiePlayer.tsx`), custom assets under `src/assets`
-- **UI Utilities**: SweetAlert, custom fields (`InputField`, `DropdownField`, `DOBPicker`)
-- **Media**: Bootsplash, background music, click sounds
-- **Testing**: Jest (setup present)
+
+<div align="center">
+
+  <table>
+    <tr>
+      <td align="center" valign="top">
+        <h3>Frontend</h3>
+        <p>
+          <img src="https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=white&labelColor=20232a" alt="React Native" />
+          <br/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+          <br/>
+          <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+        </p>
+      </td>
+      <td align="center" valign="top">
+        <h3>Backend</h3>
+        <p>
+          <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" alt="Firebase" />
+          <br/>
+          <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white" alt="NestJS" />
+          <br/>
+          <img src="https://img.shields.io/badge/REST%20API-0A66C2?logo=api&logoColor=white" alt="REST API" />
+          <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="JSON" />
+        </p>
+      </td>
+      <td align="center" valign="top">
+        <h3>LLM Development</h3>
+        <p>
+          <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face" />
+          <br/>
+          <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white" alt="Ollama" />
+          <br/>
+          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow" />
+        </p>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+### What each part does
+
+**Frontend**
+- **React Native** → One codebase for Android & iOS.
+- **TypeScript** → Type‑safe, smooth, and fast UI/UX.
+- **TailwindCSS** → Fast, responsive styling.
+
+**Backend**
+- **Firebase** → Authentication and real‑time database (MVP storage and sync).
+- **NestJS** → Scalable API layer for future analytics/content services.
+- **REST + JSON** → Secure, simple data flow and integration.
+
+**LLM Development**
+- **Hugging Face** → Open‑source models and datasets.
+- **Ollama** → Local setup and testing during development.
+- **TensorFlow** → Training/optimizing lightweight on‑device models.
 
 ---
 
@@ -134,9 +184,6 @@ npm run ios
 yarn ios
 ```
 
-Environment
-- Firebase native configs are expected at `android/app/google-services.json` and iOS `GoogleService-Info.plist`.
-- Update bundle IDs and app names per platform if you fork.
 
 ---
 
