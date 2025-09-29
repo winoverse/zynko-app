@@ -17,7 +17,6 @@ export default function DropdownField({ value, onChange, placeholder, options, c
   return (
     <>
       <Pressable onPress={() => setOpen(true)} style={({ pressed }) => [styles.wrap, containerStyle, pressed && { opacity: 0.9 }]}>
-        <View style={styles.iconWrap} />
         <Text style={[styles.text, !selected && styles.placeholder]}>{selected ? selected.label : (placeholder || 'Select')}</Text>
       </Pressable>
       <Modal visible={open} transparent animationType="fade" onRequestClose={() => setOpen(false)}>
@@ -49,8 +48,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#ffffff',
     borderRadius: 18,
-    paddingVertical: 12,
-    paddingHorizontal: 14,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
     borderWidth: 1,
     borderColor: 'rgba(0,0,0,0.08)',
     shadowColor: '#000',
@@ -59,12 +58,6 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 3 },
     elevation: 2,
     minHeight: 58,
-  },
-  iconWrap: {
-    width: 28,
-    height: 28,
-    borderRadius: 6,
-    marginRight: 10,
   },
   text: {
     flex: 1,
