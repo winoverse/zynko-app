@@ -78,35 +78,35 @@ Zynko is a mobile-first, offline-capable, gamified learning platform designed fo
 
   <table>
     <tr>
-      <td align="center" valign="top">
+      <td align="center" valign="top" width="33%" style="min-width:300px;">
         <h3>Frontend</h3>
         <p>
-          <img src="https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=white&labelColor=20232a" alt="React Native" />
-          <br/>
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
-          <br/>
-          <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
+          <img src="https://img.shields.io/badge/React%20Native-Mobile-61DAFB?logo=react&logoColor=white&labelColor=20232a&style=for-the-badge" alt="React Native" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge" alt="TailwindCSS" />
         </p>
       </td>
-      <td align="center" valign="top">
+      <td align="center" valign="top" width="33%" style="min-width:300px;">
         <h3>Backend</h3>
         <p>
-          <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" alt="Firebase" />
-          <br/>
-          <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white" alt="NestJS" />
-          <br/>
-          <img src="https://img.shields.io/badge/REST%20API-0A66C2?logo=api&logoColor=white" alt="REST API" />
-          <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white" alt="JSON" />
+          <img src="https://img.shields.io/badge/Firebase-Auth%20%26%20DB-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" alt="Firebase" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" alt="NestJS" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/REST%20API-0A66C2?logo=dependabot&logoColor=white&style=for-the-badge" alt="REST API" />
+          <img src="https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=for-the-badge" alt="JSON" />
         </p>
       </td>
-      <td align="center" valign="top">
+      <td align="center" valign="top" width="33%" style="min-width:300px;">
         <h3>LLM Development</h3>
         <p>
-          <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face" />
-          <br/>
-          <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white" alt="Ollama" />
-          <br/>
-          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow" />
+          <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black&style=for-the-badge" alt="Hugging Face" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white&style=for-the-badge" alt="Ollama" />
+          <br/><br/>
+          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" alt="TensorFlow" />
         </p>
       </td>
     </tr>
